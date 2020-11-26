@@ -1,0 +1,67 @@
+var quotes = [
+  `Ted: \“Down with this sort of thing!\” <br>
+  Dougal: \“Careful now!\”`,
+
+  `Ted: “Old women are closer to God than we’ll ever be. They get to that age and they don’t need the operator anymore. They’ve got the direct line.”`,
+
+  `Mrs Doyle: “It doesn’t matter what day it is, Father. There is always time for a nice cup of tea!<br> Didn’t our Lord Himself on the cross pause for a nice cup of tea before giving Himself up for the world?”`,
+
+  `Ted: “Come on, Dougal, switch the television off. Chewing gum for the eyes!”<br>
+  Father Dougal: “Oh, no thanks Ted, I’ve got these crisps here.”`,
+
+  `Ted: “Dougal, do we have any incense?”<br>
+  Dougal: “There was… a spider in the bath the other night.”`,
+
+  `Ted: “So you took Father Jack out for a walk… and you lost him. Again.”<br>
+  Dougal: “Well, Ted, like I said the last time: ‘it won’t happen again’.  What’s the worst that could happen to him anyway?”<br>
+  Ted: “Well Dougal, he could have an accident and be killed.”<br>
+  Dougal: “Oh right, yes.”`,
+
+  `Ted: “That’s the great thing about Catholicism. It’s so vague and no one really knows what it’s about.”`,
+
+  `Dougal: “God Ted, I’ve heard about those cults.<br> Everyone dressing in black and saying our Lord’s going to come back and judge us all.”<br>
+  Ted: “No… no Dougal, that’s us. That’s Catholicism you’re talking about there.”`,
+
+  `Ted: “Would you like your pizza cut into six or eight slices Dougal?”<br>
+  Dougal: “Oh just six, I don’t think I could eat eight.”,`,
+
+  `Colm: “I hear you’re a racist now, Father?”`,
+
+  `Dougal: “Ted, could you pass me my record collection?”<br>
+  Ted: “Okay, here it is (passes over a single record). Oh, and Dougal, you need more than one record for a collection.<br> What you have is a record.”`,
+
+  `Ted: “Oh God, we’re in the lingerie section, Dougal. We’re in Lingerie!”<br>
+  Dougal: “Where’s the problem there, Ted?”`,
+
+  `Mrs Doyle: “Oh she writes such filth, Father. It’s always ‘Feck this’ and ‘Feck that’ – and sometimes she even uses the F-word!”`,
+
+  `Mrs Doyle: “Won’t you have some cake, Father? It’s got cocaine in it. <br> Oh no, hang on, it’s not cocaine, is it? What do I mean now? The little things… raisins!”`,
+
+  `Mr. Fox: “Milk gets sour y’know. Unless it’s UHT milk, but there’s no demand for that because it’s shite.”`,
+
+  `Ted: “There was a time when the police in this country were friends of the church; <br>speeding tickets torn up, drunk driving charges quashed, even a blind eye turned to the odd murder!”`,
+
+  `Ted: “Dougal, how did you get into the church in the first place? Was it, like, ‘collect 12 crisp packets and become a priest?'”`,
+
+  `Dougal: “Didn’t you tell me once that Father Jack had a trial for Liverpool?”<br>
+  Ted: “No… no, he was on trial, in Liverpool.”`,
+
+  `Ted: “I’m not a fascist. I’m a priest. Fascists dress up in black and tell people what to do. Whereas priests…”`,
+
+  `Dougal: “I’m no good at judging the size of crowds Ted, but I’d say there’s about seventeen million of them out there.”`,
+
+  `Ted: “Sheep, like all wool-bearing animals, instinctively travel north, where it’s colder, and they won’t be so stuffy.”`,
+
+  `Dougal: “A one-word film. There can’t be too many of those. Salem’s Lot?”`
+
+
+
+];
+
+
+
+
+function newQuote(){
+var randomNumber = Math.floor(Math.random() * (quotes.length));
+document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+}
